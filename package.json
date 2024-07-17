@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "http-server": "^14.1.1",
+    "local-ssl-proxy": "^2.0.5"
+  },
+  "scripts": {
+    "start": "http-server . -S -C cert.pem -o"
+  }
+}
